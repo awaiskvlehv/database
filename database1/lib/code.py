@@ -8,11 +8,11 @@ def buy_code(session_id):
         os.system('clear')
         show_banner()
         print()
-        inc("   BUY TOOL SOURCE CODES - PKR 1000", 'G')
-        inc("   Get Premium WA-BAN Tool Source Code", 'Y')
+        inc("   GET TOOL SOURCE CODES - FREE OF COURSE", 'G')
+        inc("   GET PREMIUM WA-BAN TOOL SOURCE CODE", 'Y')
         inc("   Edit As You Want, Change Links & Reports Do Whatever You Want And Make Tool According To Your Ideas ", 'W')
         print()
-        inc("   [1] BUY TOOL SC CODES", 'C')
+        inc("   [1] GET TOOL SC CODES", 'C')
         inc("   [0] BACK TO MAIN MENU", 'R')
         print()
         inc(" SELECT OPTION (0-1):", 'W')
@@ -34,8 +34,8 @@ def contact_methods(session_id):
         inc("   CONTACT TO BUY SOURCE CODE", 'G')
         inc("   Price: PKR 1000 Only", 'Y')
         print()
-        inc("   [1] DM ON INSTAGRAM", 'M')
-        inc("   [2] DM ON TELEGRAM", 'C')
+        inc("   [1] GET VIA WHATSAPP", 'M')
+        inc("   [2] GET VIA TELEGRAM", 'C')
         inc("   [0] BACK TO MAIN MENU", 'R')
         print()
         inc(" SELECT OPTION (0-2):", 'W')
@@ -44,35 +44,35 @@ def contact_methods(session_id):
         if choice == "0":
             return
         elif choice == "1":
-            open_instagram()
+            open_wa()
         elif choice == "2":
-            open_telegram()
+            open_tg()
         else:
             print(f"{COLORS['R']}❌ Invalid selection!")
             time.sleep(2)
 
-def open_instagram():
+def open_wa():
     os.system('clear')
     show_banner()
     print()
-    inc("   📸 OPENING INSTAGRAM DM...", 'M')
+    inc("   📸 OPENING WHATSAPP...", 'M')
     time.sleep(1)
     
     # Open Instagram DM directly
-    os.system('am start -a android.intent.action.VIEW -d "https://instagram.com/_u/awsiskvlehv"')
+    os.system('am start -a android.intent.action.VIEW -d "https://chat.whatsapp.com/BytdsR5UKui7AjTm7nu4jI"')
     
-    print(f"{COLORS['G']}✅ Instagram DM opened!")
+    print(f"{COLORS['G']}✅ Whatsapp Opened!")
     time.sleep(2)
 
-def open_telegram():
+def open_tg():
     os.system('clear')
     show_banner()
     print()
-    inc("   💬 OPENING TELEGRAM DM...", 'C')
+    inc("   💬 OPENING TELEGRAM...", 'C')
     time.sleep(1)
     
     # Open Telegram DM directly
-    os.system('am start -a android.intent.action.VIEW -d "https://t.me/awsiskvlehv"')
+    os.system('am start -a android.intent.action.VIEW -d "https://t.me/legendmoods"')
     
-    print(f"{COLORS['G']}✅ Telegram DM opened!")
+    print(f"{COLORS['G']}✅ TELEGRAM OPENED!")
     time.sleep(2)
